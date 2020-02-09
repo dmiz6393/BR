@@ -23,22 +23,6 @@ section {
   align-items: center;
 }
 
-.first {
-  background: url("pictures/chirayu-trivedi-pTb54lkyuNQ-unsplash.jpg") no-repeat center center/cover;
-}
-
-/* fix names */
-/* long term thinking of margins */
-
-.desktop{
-  background: url("pictures/green-leaf-plant-in-white-flower-pot-1022923.jpg") no-repeat center center/cover;
-}
-
-.insights{
-  background: url("pictures/isaac-benhesed-onLbXleIkds-unsplash.jpg") no-repeat center center/cover;
-  background-size: 300%;
-}
-
 .container {
   display: flex;
   flex-direction: row;
@@ -50,18 +34,37 @@ section {
   margin: 1;
 }
 
-.background{
+.first {
+  background: url("pictures/chirayu-trivedi-pTb54lkyuNQ-unsplash.jpg") no-repeat
+    center center/cover;
+}
+
+.desktop {
+  background: url("pictures/green-leaf-plant-in-white-flower-pot-1022923.jpg")
+    no-repeat center center/cover;
+}
+
+.insights {
+  background: url("pictures/isaac-benhesed-onLbXleIkds-unsplash.jpg") no-repeat
+    center center/cover;
+  background-size: 300%;
+}
+
+.background {
   background: url("pictures/work.jpg") no-repeat center center/cover;
 }
 
-.iphone{
-  background: url("pictures/Black\ Circle\ with\ Utensils\ Restaurant\ Logo\ \(4\).png") no-repeat center center/cover;
+.iphone {
+  background: url("pictures/Black\ Circle\ with\ Utensils\ Restaurant\ Logo\ \(4\).png")
+    no-repeat center center/cover;
 }
 
 .bottom-content {
   margin-top: auto;
-  /* text-align: center;
-  display: inline-block; */
+}
+
+.align {
+  margin-right: 30em;
 }
 
 .button {
@@ -69,36 +72,32 @@ section {
   padding: 9px 30px 9px 30px;
   background: black;
   text-decoration: none;
-  color:white;
+  color: white;
   border-radius: 1px;
   border: 1px solid black;
   cursor: pointer;
-  transition: .3s;
-  
- 
+  transition: 0.3s;
 }
 .button:hover {
-  opacity: .8;
+  opacity: 0.8;
 }
 
-.font{
+.font {
   font: 16px/22px "FortExtraBold", Arial, sans-serif;
 }
 
-
-.content{
-  font-family: Arial,sans-serif;
+.form {
+  background: #efefef;
+  position: relative;
+  top: 0;
+  left: 0;
 }
 
-.form{
-  background: #efefef
-}
-
-.handshake{
+.handshake {
   background: url("./pictures/handshake_br.png") no-repeat center center/cover;
 }
 
-.first-block{
-  background: url("./pictures/izabelle-acheson-6JQZGqgJLkM-unsplash.jpg") no-repeat center center/cover;
-
+.first-block {
+  background: url("./pictures/izabelle-acheson-6JQZGqgJLkM-unsplash.jpg")
+    no-repeat center center/cover;
 }
