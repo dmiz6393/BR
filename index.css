@@ -1,0 +1,104 @@
+.main-container {
+  display: flex;
+}
+
+main {
+  flex: 2;
+}
+
+section {
+  flex: 1;
+}
+
+.item {
+  background: white;
+  border: black solid 1px;
+  padding: 1rem;
+  flex: 1;
+  margin: 0 0.75rem 1.5rem;
+  align-items: baseline;
+  min-height: 275px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.first {
+  background: url("pictures/chirayu-trivedi-pTb54lkyuNQ-unsplash.jpg") no-repeat center center/cover;
+}
+
+/* fix names */
+/* long term thinking of margins */
+
+.desktop{
+  background: url("pictures/green-leaf-plant-in-white-flower-pot-1022923.jpg") no-repeat center center/cover;
+}
+
+.insights{
+  background: url("pictures/isaac-benhesed-onLbXleIkds-unsplash.jpg") no-repeat center center/cover;
+  background-size: 300%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.container:first-child {
+  margin: 1;
+}
+
+.background{
+  background: url("pictures/work.jpg") no-repeat center center/cover;
+}
+
+.iphone{
+  background: url("pictures/Black\ Circle\ with\ Utensils\ Restaurant\ Logo\ \(4\).png") no-repeat center center/cover;
+}
+
+.bottom-content {
+  margin-top: auto;
+  /* text-align: center;
+  display: inline-block; */
+}
+
+.button {
+  display: inline-block;
+  padding: 9px 30px 9px 30px;
+  background: black;
+  text-decoration: none;
+  color:white;
+  border-radius: 1px;
+  border: 1px solid black;
+  cursor: pointer;
+  transition: .3s;
+  
+ 
+}
+.button:hover {
+  opacity: .8;
+}
+
+.font{
+  font: 16px/22px "FortExtraBold", Arial, sans-serif;
+}
+
+
+.content{
+  font-family: Arial,sans-serif;
+}
+
+.form{
+  background: #efefef
+}
+
+.handshake{
+  background: url("./pictures/handshake_br.png") no-repeat center center/cover;
+}
+
+.first-block{
+  background: url("./pictures/izabelle-acheson-6JQZGqgJLkM-unsplash.jpg") no-repeat center center/cover;
+
+}
