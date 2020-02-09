@@ -13,5 +13,5 @@ const handleFormSubmission = e => {
   let first=e.target.first.value 
   let last= e.target.last.value 
   let email= e.target.email.value 
-  console.log(first)
+  console.log(`First Name:${first}, Last Name: ${last}, Email:${email}`)
 };
