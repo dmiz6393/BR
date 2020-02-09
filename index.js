@@ -10,8 +10,8 @@ const formHandler = () => {
 
 const handleFormSubmission = e => {
   e.preventDefault();
-  let first=e.target.first.value 
-  let last= e.target.last.value 
-  let email= e.target.email.value 
-  console.log(`First Name:${first}, Last Name: ${last}, Email:${email}`)
+  let first = e.target.first.value;
+  let last = e.target.last.value;
+  let email = e.target.email.value;
+  console.log(`First Name:${first}, Last Name: ${last}, Email:${email}`);
 };

@@ -33,37 +33,41 @@ section {
   background-size: cover;
 }
 
+.font {
+  font: 16px/22px "FortExtraBold", Arial, sans-serif;
+}
+
 .container:first-child {
   margin: 1;
 }
 
-.first {
-  background-image: url("pictures/chirayu-trivedi-pTb54lkyuNQ-unsplash.jpg");
+.plant {
+  background-image: url("./pictures/plant.jpg");
 }
 
-.desktop {
-  background-image: url("pictures/green-leaf-plant-in-white-flower-pot-1022923.jpg");
+.clock {
+  background-image: url("pictures/clock.jpg");
 }
 
-.insights {
-  background-image: url("pictures/isaac-benhesed-onLbXleIkds-unsplash.jpg");
+.flower-pot {
+  background-image: url("pictures/flower-pot.jpg");
+}
+
+.glasses {
+  background-image: url("pictures/glasses.png");
+}
+
+.coffee {
+  background-image: url("pictures/coffee.jpg");
   background-size: 300%;
 }
 
-.background {
+.work {
   background-image: url("pictures/work.jpg");
-}
-
-.iphone {
-  background-image: url("pictures/Black\ Circle\ with\ Utensils\ Restaurant\ Logo\ \(4\).png");
 }
 
 .handshake {
   background-image: url("./pictures/handshake_br.png");
-}
-
-.first-block {
-  background-image: url("./pictures/izabelle-acheson-6JQZGqgJLkM-unsplash.jpg");
 }
 
 .bottom-content {
@@ -87,10 +91,6 @@ section {
 }
 .button:hover {
   opacity: 0.8;
-}
-
-.font {
-  font: 16px/22px "FortExtraBold", Arial, sans-serif;
 }
 
 .form {
@@ -117,10 +117,4 @@ select {
   margin-top: 1rem;
   font-size: 16px;
   height: 42px;
-}
-
-@media (max-width: 768px) {
-  .grid {
-    grid-template-columns: 1fr;
-  }
 }
