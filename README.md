@@ -12,4 +12,4 @@ The following was done for this landing page:
 
 5. The pictures were taken from pexels and unsplash, except for the handshake image.
 
-For future work, I'd like to make this page mobile friendly. I'd also like to explore using gridbox would help keep all boxes aligned when changing the size of the screen.
+For future work, I'd like to make this page mobile friendly. I'd also like to explore using gridbox would help keep all boxes aligned when changing the size of the screen. To keep the within DRY standards, perhaps each box could be a component rendered on the page using a framework/library. 
